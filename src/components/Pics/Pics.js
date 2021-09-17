@@ -39,11 +39,11 @@ function Pics(props) {
     
     
     
-    console.log(data);
-    console.log(dataLength);
+    // console.log(data);
+    // console.log(dataLength);
     
 
-    //const childrenLength = data.data.dist;
+    
 
     const getThumbnail = (img) => {
         if (img.includes('jpg') || img.includes('png') || img.includes('jpeg')) {
@@ -53,7 +53,6 @@ function Pics(props) {
     }
 
     const getVideo = (video) => {
-        console.log(video);
         if (!video) {
             return null;
         } else if (video.reddit_video) {
@@ -61,7 +60,7 @@ function Pics(props) {
         } else {
             return null;
         }
-        //return video.reddit_video ? video : null;
+        
     }
 
 
@@ -81,7 +80,6 @@ function Pics(props) {
                     <div className="col-sm-11 col-md-11"> 
                         <Skeleton row={1} width="70%" height={40}/>
                         <br />
-                        {/* <Skeleton row={1} height="50px" />      */}
                         <Skeleton row={1} height={250} />
                         <hr/>
                         <div className="loading-post-bottom">
