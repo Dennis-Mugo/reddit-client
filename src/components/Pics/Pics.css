@@ -1,0 +1,44 @@
+.main {
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.loading-post-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.author-container {
+    display: flex;
+
+}
+
+.loading-post-container {
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 15px;
+    animation: zoom 250ms ease-in;
+    
+}
+
+@keyframes zoom {
+    0% {
+        margin-left: 25%;
+        width: 50%;
+        transform: scaleY(0.5);
+        /* height: 50px; */
+    }
+    
+    100% {
+        margin-left: 0;
+        width: 100%;
+        transform: scaleY(1);
+        /* height: 200px; */
+    }
+}
+

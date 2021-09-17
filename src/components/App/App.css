@@ -1,0 +1,15 @@
+.main-right {
+    padding: 20px;
+    background-color: whitesmoke;
+    
+}
+
+.main-content {
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 585px){
+    .main-content {
+        padding-top: 90px;
+    }
+}

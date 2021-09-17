@@ -1,0 +1,62 @@
+.sideNavList {
+    position: fixed;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: white;
+    overflow-y: scroll;
+    height: 85vh;
+
+}
+.sideNavList ul {
+    list-style-type: none;
+    padding: 5px 25px;
+    
+}
+
+.subRedditsTitle {
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.subRedditsTitle h3 {
+    text-align: center;
+}
+
+.nav-item {
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin: 15px 0;
+    margin-top: 0;
+    padding: 15px;
+    /* border: 1px solid black; */
+    display: flex;
+    
+    
+}
+
+.nav-item img {
+    margin-right: 10px;
+}
+
+
+
+
+.nav-item:hover {
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.active, .active:hover {
+    border-left: 5px solid #28a745;
+    background-color: lightgreen;
+    color: darkgreen;
+    border-radius: 0;
+}
+
+
