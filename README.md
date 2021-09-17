@@ -3,7 +3,7 @@ A website that fetches data from the json Reddit API and renders the posts in di
 
 # Built with
 
-React JS
+React JS <br>
 Bootstrap
 
 # Features
