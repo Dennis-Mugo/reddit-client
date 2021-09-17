@@ -35,9 +35,7 @@ function getPostVideo(video) {
     if (video.includes('mp4')) {
         return (
             <div className='video-container'>
-                <video src={video} width="60%" controls >
-                    {/* <source src={video} type="video/mp4" /> */}
-                </video>
+                <video src={video} width="60%" controls ></video>
             </div>
         )
     }
